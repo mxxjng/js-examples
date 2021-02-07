@@ -1,5 +1,9 @@
-const MAX_AGE = 30;
+const MAX_AGE = 18;
 let daysSinceLastVisit = 10;
 let currentYear = new Date().getFullYear();
+let user = {
+  name: 'Max',
+  age: 23,
+};
 
-const isUserOlderThanAllowed = user.age > MAX_AGE;
+const isUserAnAdult = user.age > MAX_AGE;

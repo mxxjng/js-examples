@@ -1,6 +1,7 @@
 # Variables
 
-Use Snake case for constants, camelcase for othes
+- Snake case for constant values
+- camelcase for other values
 
 ```javascript
 const MAX_AGE = 30;
