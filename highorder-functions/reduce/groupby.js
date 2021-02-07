@@ -1,14 +1,13 @@
-const data = require('../mockData');
+const data = require('../../mockData');
 
 /**
  * a function that groups objects by category
  * @param {array} arr Array with objects
- * @param {*} category category to group by
+ * @param {string} category category to group by
  */
 const groupBy = (arr, category) => {
   return arr.reduce((acc, obj) => {
     let key = obj[category];
-    console.log(key);
     if (!acc[key]) {
       acc[key] = [];
     }
@@ -18,3 +17,14 @@ const groupBy = (arr, category) => {
 };
 
 console.log(groupBy(data, 'gender'));
+
+/* Output:
+{
+  male: [
+    { name: 'Max', age: 23, gender: 'male' },
+    { name: 'Moritz', age: 14, gender: 'male' },
+    { name: 'Tim', age: 19, gender: 'male' }
+  ],
+  female: [ { name: 'Nina', age: 19, gender: 'female' } ]
+}
+*/
