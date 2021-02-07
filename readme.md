@@ -1,6 +1,6 @@
-# Javascript es6 Examples
+# Javascript Wisdom
 
-just some helpful javascript methods etc...
+an overview of js syntax, tricks, tipps, cleancode etc...
 
 ### Good sources
 
