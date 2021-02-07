@@ -1,0 +1,3 @@
+# Javascript es6 Examples
+
+just some helpful javascript methods etc...
