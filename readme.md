@@ -4,6 +4,8 @@ an overview of js syntax, tricks, tipps, cleancode etc...
 
 ### Good sources
 
+- https://github.com/airbnb/javascript
+
 - https://www.youtube.com/watch?v=RMN_bkZ1KM0&ab_channel=JavaScriptMastery
 
 - https://github.com/WebDevSimplified/Noob-Vs-Pro-Code
