@@ -6,12 +6,12 @@ const calculateMedian = (inputData) => {
   let isEqual = sortedArr.length % 2 === 0;
 
   if (isEqual) {
-    let stelle1 = sortedArr.length / 2 - 1;
-    let stelle2 = sortedArr.length / 2;
-    return (sortedArr[stelle1] + sortedArr[stelle2]) / 2;
+    return (
+      (sortedArr[sortedArr.length / 2 - 1] + sortedArr[sortedArr.length / 2]) /
+      2
+    );
   } else {
-    let stelle = (sortedArr.length + 1) / 2;
-    return sortedArr[stelle - 1];
+    return sortedArr[(sortedArr.length + 1) / 2 - 1];
   }
 };
 console.log(calculateMedian(data));
